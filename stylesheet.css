@@ -1,0 +1,94 @@
+/* styles.css */
+
+/* --- GENERAL LAYOUT STYLES --- */
+
+/* Style the main body or container to center the content */
+body {
+  font-family: sans-serif;
+  background-color: #f8f8f8;
+  /* Light gray background */
+  padding: 20px;
+  display: flex;
+  /* Helps align content */
+  flex-direction: column;
+  align-items: center;
+}
+
+/* --- RECIPE CARD STYLES --- */
+
+/* Target the main recipe container */
+article {
+  background-color: white;
+  border: 1px solid #ddd;
+  /* Light border */
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 30px;
+  /* Space between recipes */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow for depth */
+  max-width: 600px;
+  /* Limits the width for better readability */
+  width: 90%;
+}
+
+/* Optional: Add a hover effect */
+article:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+/* --- TEXT AND HEADING STYLES --- */
+
+.recipe-card h2 {
+  color: #333;
+  font-size: 24px;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.recipe-card h3 {
+  color: #555;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* --- LIST STYLES (Ingredients & Method) --- */
+
+.ingredients ul,
+.instructions ol {
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+.ingredients li {
+  list-style-type: disc;
+  /* Use bullets */
+}
+
+.instructions li {
+  list-style-type: decimal;
+  /* Use numbers */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 0.9em;
+}
+
+footer p {
+  margin: 5px 0;
+  line-height: 1.4;
+
+}
+
+footer p:first-child {
+  font-weight: bold;
+}
