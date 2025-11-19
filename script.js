@@ -28,3 +28,5 @@ function search() {
     );
   }
 }
+search();
+console.log("script loaded")
