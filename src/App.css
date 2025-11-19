@@ -10,8 +10,8 @@ body {
 }
 
 .title {
-  background-color: #FAF4E8;
-  border: 1px solid #c3c2c2;
+  background-color: #9e8c68;
+  border: 1px solid #9e8c68;
   border-radius: 12px;
   padding: 20px;
   margin-bottom: 20px;
@@ -32,8 +32,8 @@ body {
 /* -------------------- FOOTER STYLES -------------------- */
 
 footer {
-  background-color: #8B5E3C;
-  color: #fff;
+  background-color: #FAF4E8;
+  color: #000000;
   padding: 20px 0;
   width: 100%;
   text-align: center;
