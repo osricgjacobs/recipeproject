@@ -91,7 +91,7 @@ const App: React.FC = () => {
 
       <footer>
         <p>{"Ontwikkel deur Osric Jacobs - 2025"}</p>
-        <p>{"Alle resepte is verskap deur Veronica Jacobs"}</p>
+        <p>{"Alle resepte is verskaf deur Veronica Jacobs"}</p>
       </footer>
     </>
   );
