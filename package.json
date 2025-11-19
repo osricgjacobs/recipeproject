@@ -3,14 +3,19 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://OsricJacobs.github.io/recipeproject",
+  
+  "homepage": "https://osricjacobs.github.io/recipeproject", 
+  
   "scripts": {
     "dev": "vite",
+    "clean": "del /s /q dist",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -a"
+    
+
+    "predeploy": "npm run clean && npm run build", 
+    "deploy": "gh-pages -d dist -a" 
   },
   "dependencies": {
     "react": "^19.2.0",
