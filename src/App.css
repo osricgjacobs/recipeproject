@@ -18,8 +18,8 @@ body {
   text-align: center;
 }
 .pageLogo {
-  width: auto;
-  height: 300px;
+  width: 35%;
+  height: auto;
 }
 
 .recipe-container {

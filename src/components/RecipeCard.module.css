@@ -21,8 +21,8 @@
 }
 
 .recipeImage {
-  width: auto;
-  height: 200px;
+  width: 20%;
+  height:auto;
   border-radius: 8px;
   margin-bottom: 20px;
 }
