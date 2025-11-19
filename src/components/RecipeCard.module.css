@@ -20,6 +20,12 @@
   transition: box-shadow 0.5s ease-in-out;
 }
 
+.recipeImage {
+  width: auto;
+  height: 200px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
 /* Headings and Lists */
 
 .recipeCard h2 {

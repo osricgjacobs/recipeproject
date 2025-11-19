@@ -13,7 +13,11 @@ const RecipeCard: React.FC<RecipeCardProps> = ({ recipe }) => {
     // 2. FIX: Replace string class names with module object references (styles.className)
     <article className={styles.recipeCard} id={recipe.id}>
       <h2>{recipe.title}</h2>
-      <img src="" alt={`Prent van ${recipe.title}`} />
+      <img
+        src={`./images/${recipe.id}.jpeg`}
+        alt={`Prent van ${recipe.title}`}
+        className={styles.recipeImage}
+      />
 
       <section className={styles.ingredients}>
         <h3>Bestandele:</h3>

@@ -14,14 +14,18 @@ body {
   border: 1px solid #c3c2c2;
   border-radius: 12px;
   padding: 20px;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
   text-align: center;
+}
+.pageLogo {
+  width: auto;
+  height: 300px;
 }
 
 .recipe-container {
-  width: 95%; 
+  width: 95%;
   max-width: 1400px;
-  margin: 30px auto; 
+  margin: 30px auto;
   display: block;
 }
 
@@ -77,36 +81,35 @@ footer p:first-child {
 /* -------------------- CATEGORY FILTER STYLES -------------------- */
 
 .filter-controls {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin: 30px 0; 
-    padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 30px 0;
+  padding: 10px;
 }
 
 .filter-controls button {
-
-    padding: 10px 18px;
-    background-color: #f0f0f0;
-    color: #333;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    cursor: pointer;
-    font-weight: 500;
-    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-    user-select: none;
+  padding: 10px 18px;
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  user-select: none;
 }
 
 .filter-controls button:not(.active-filter):hover {
-    background-color: #e5e5e5;
-    border-color: #aaa;
+  background-color: #e5e5e5;
+  border-color: #aaa;
 }
 .filter-controls button.active-filter {
-    /* Primary Style: Darker/primary color background */
-    background-color: #131313; 
-    color: #ffffff; /* White text on dark background */
-    border-color: #131313;
-    font-weight: bold;
-    /* Remove hover effect on active button */
-    pointer-events: none; 
+  /* Primary Style: Darker/primary color background */
+  background-color: #131313;
+  color: #ffffff; /* White text on dark background */
+  border-color: #131313;
+  font-weight: bold;
+  /* Remove hover effect on active button */
+  pointer-events: none;
 }
