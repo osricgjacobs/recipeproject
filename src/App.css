@@ -2,7 +2,7 @@
 
 body {
   font-family: sans-serif;
-  background-color: #d3d3d3;
+  background-color: #9e8c68;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -10,7 +10,7 @@ body {
 }
 
 .title {
-  background-color: white;
+  background-color: #FAF4E8;
   border: 1px solid #c3c2c2;
   border-radius: 12px;
   padding: 20px;
@@ -32,7 +32,7 @@ body {
 /* -------------------- FOOTER STYLES -------------------- */
 
 footer {
-  background-color: #6d6b6b;
+  background-color: #8B5E3C;
   color: #fff;
   padding: 20px 0;
   width: 100%;
@@ -66,11 +66,12 @@ footer p:first-child {
   border: 1px solid #ccc;
   border-radius: 8px;
   font-size: 16px;
+  background-color: #FAF4E8;
 }
 
 #search-button {
   padding: 10px 15px;
-  background-color: #131313;
+  background-color: #BC4749;
   color: white;
   border: none;
   border-radius: 8px;
@@ -90,7 +91,7 @@ footer p:first-child {
 
 .filter-controls button {
   padding: 10px 18px;
-  background-color: #f0f0f0;
+  background-color: #FAF4E8;
   color: #333;
   border: 1px solid #ccc;
   border-radius: 6px;
@@ -101,14 +102,14 @@ footer p:first-child {
 }
 
 .filter-controls button:not(.active-filter):hover {
-  background-color: #e5e5e5;
+  background-color: #f0c673;
   border-color: #aaa;
 }
 .filter-controls button.active-filter {
   /* Primary Style: Darker/primary color background */
-  background-color: #131313;
+  background-color: #BC4749;
   color: #ffffff; /* White text on dark background */
-  border-color: #131313;
+  border-color: #BC4749;
   font-weight: bold;
   /* Remove hover effect on active button */
   pointer-events: none;
