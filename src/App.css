@@ -23,10 +23,11 @@ body {
 }
 
 .recipe-container {
-  width: 95%;
+  width: 100%;
   max-width: 1400px;
   margin: 30px auto;
   display: block;
+  padding: 0 20px;
 }
 
 /* -------------------- FOOTER STYLES -------------------- */

@@ -46,7 +46,7 @@ const App: React.FC = () => {
     <>
       <article className="title">
         <img src="./icon.png" alt="Logo" className="pageLogo" />
-        <h1>Resepte van Dawn</h1>
+        <h1>Resepte deur Dawn</h1>
       </article>
 
       {/* The search input handles the state change */}
