@@ -382,10 +382,10 @@ export const ALL_RECIPES_DATA: RecipeData[] = [
     category: "Sweet",
     ingredients: [
       { text: "1 blik Ideal Milk (baie koud)" },
-      { text: "1 blik Koo-pynappels (fyn of stukke)" },
+      { text: "1 blik pynappels (fyn of stukke)" },
       { text: "2 pak pynappeljellie" },
       { text: "Tennisbeskuit (vir die kors)" },
-      { text: "[Orley Whip] (vir bo-oor - opsioneel/vermoedelik)" },
+      { text: "Orley Whip" },
     ],
     method: [
       "Berei die kors met die tennisbeskuit voor.",
@@ -534,7 +534,7 @@ export const ALL_RECIPES_DATA: RecipeData[] = [
       { text: "250ml gerasperde kaas" },
       { text: "3 eiers, geklits" },
       {
-        text: "Vulsel: Bacon / polony / hoender / uie / greenpepper (vooraf gebraai)",
+        text: "Vulsel: Bacon, polony of hoender met uie en greenpepper (vooraf gebraai)",
       },
     ],
     method: [
