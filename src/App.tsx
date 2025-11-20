@@ -83,7 +83,7 @@ const App: React.FC = () => {
         </button>
       </div>
 
-      <div className="recipes-container">
+      <div className="recipe-container">
         {/* Map the filtered array to render the individual components */}
         {displayedRecipes.map((recipe) => (
           <RecipeCard key={recipe.id} recipe={recipe} />

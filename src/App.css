@@ -8,6 +8,10 @@ body {
   flex-direction: column;
   align-items: center;
 }
+div {
+  
+}
+
 
 .title {
   background-color: #9e8c68;
@@ -24,16 +28,21 @@ body {
 
 .recipe-container {
   width: 100%;
-  max-width: 1400px;
+  max-width: auto;
   margin: 30px auto;
-  display: block;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+
   padding: 0 20px;
 }
 
 /* -------------------- FOOTER STYLES -------------------- */
 
 footer {
-  background-color: #FAF4E8;
+  background-color: #faf4e8;
   color: #000000;
   padding: 20px 0;
   width: 100%;
@@ -67,12 +76,12 @@ footer p:first-child {
   border: 1px solid #ccc;
   border-radius: 8px;
   font-size: 16px;
-  background-color: #FAF4E8;
+  background-color: #faf4e8;
 }
 
 #search-button {
   padding: 10px 15px;
-  background-color: #BC4749;
+  background-color: #bc4749;
   color: white;
   border: none;
   border-radius: 8px;
@@ -92,7 +101,7 @@ footer p:first-child {
 
 .filter-controls button {
   padding: 10px 18px;
-  background-color: #FAF4E8;
+  background-color: #faf4e8;
   color: #333;
   border: 1px solid #ccc;
   border-radius: 6px;
@@ -108,9 +117,9 @@ footer p:first-child {
 }
 .filter-controls button.active-filter {
   /* Primary Style: Darker/primary color background */
-  background-color: #BC4749;
+  background-color: #bc4749;
   color: #ffffff; /* White text on dark background */
-  border-color: #BC4749;
+  border-color: #bc4749;
   font-weight: bold;
   /* Remove hover effect on active button */
   pointer-events: none;

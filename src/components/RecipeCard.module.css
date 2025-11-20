@@ -1,17 +1,25 @@
-/* -------------------- RECIPE CARD STYLES -------------------- */
-
-/* Renamed to recipeCard for standard JS camelCase naming convention */
 .recipeCard {
-  background-color: #FAF4E8;
+  background-color: #faf4e8;
   border: 1px solid #ddd;
   border-radius: 12px;
-  padding: 20px;
-  max-width: 95%;
+  padding: 20px; 
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
+  margin: 0;
+  flex-basis: 100%;
+  flex-grow: 1;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 768px) {
+  .recipeCard {
+    flex-basis: calc(50% - 15px);
+  }
+}
+@media (min-width: 1200px) {
+  .recipeCard {
+    flex-basis: calc(33.33% - 20px);
+    width: calc(33.33% - 20px);
+  }
 }
 
 /* Hover effect on the component root */
@@ -22,7 +30,7 @@
 
 .recipeImage {
   width: 20%;
-  height:auto;
+  height: auto;
   border-radius: 8px;
   margin-bottom: 20px;
 }
