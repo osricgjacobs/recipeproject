@@ -16,7 +16,7 @@ export const ALL_RECIPES_DATA: RecipeData[] = [
   {
     id: "Boeber",
     title: "Boeber",
-    category:"Sweet",
+    category: "Sweet",
     ingredients: [
       { text: "125ml botter" },
       { text: "250ml vermicelli" },
@@ -39,7 +39,7 @@ export const ALL_RECIPES_DATA: RecipeData[] = [
   {
     id: "CremoraTert",
     title: "Cremora-tert",
-     category:"Sweet",
+    category: "Sweet",
     ingredients: [
       { text: "1 koppie Cremora" },
       { text: "1½ koppies kookwater" },
@@ -60,7 +60,7 @@ export const ALL_RECIPES_DATA: RecipeData[] = [
   {
     id: "DawnseBranMuffins",
     title: "Dawn se Bran Muffins",
-     category:"Sweet",
+    category: "Sweet",
     ingredients: [
       { text: "500ml Nutty Wheat Meel" },
       { text: "250ml Suiker (1 k.)" },
@@ -81,7 +81,7 @@ export const ALL_RECIPES_DATA: RecipeData[] = [
   {
     id: "GeskroeideVermicelli",
     title: "Fried Geskroeide Vermicelli",
-     category:"Sweet",
+    category: "Sweet",
     ingredients: [
       { text: "250g botter" },
       { text: "Kaneel (stokkies of fyn)" },
@@ -101,7 +101,7 @@ export const ALL_RECIPES_DATA: RecipeData[] = [
   {
     id: "GemmerPoeding",
     title: "Gemmer Poeding",
-     category:"Sweet",
+    category: "Sweet",
     ingredients: [
       { text: "250ml koekmeel" },
       { text: "1 etl. appelkooskonfyt" },
@@ -110,6 +110,8 @@ export const ALL_RECIPES_DATA: RecipeData[] = [
       { text: "1 tlp. fyn gemmer" },
       { text: "1 tlp. koeksoda" },
       { text: "½ koppie melk" },
+      { text: "250ml suiker (stroop)" },
+      { text: "250ml Water (stroop)" },
     ],
     method: [
       "Voorverhit oond tot 180°C.",
@@ -118,13 +120,13 @@ export const ALL_RECIPES_DATA: RecipeData[] = [
       "Meng melk by ander bestanddele.",
       "Meng suiker en water [vir die stroop].",
       "Gooi [die stroop] bo-oor [die poedingmengsel].",
-      "Bak 30 minute op 180°C.",
+      "Bak 30 minute (180°C).",
     ],
   },
   {
     id: "HoenderVindaloo",
     title: "Hoender Vindaloo",
-     category:"Savoury",
+    category: "Savoury",
     ingredients: [
       { text: "Hoender (stukke of filette)" },
       { text: "Nat Masala (bv. gemmer, knoffel, brandrissies)" },
@@ -147,7 +149,7 @@ export const ALL_RECIPES_DATA: RecipeData[] = [
   {
     id: "Jogurttert",
     title: "Jogurttert",
-     category:"Sweet",
+    category: "Sweet",
     ingredients: [
       { text: "500ml jogurt (verkieslik gegeurde of dik jogurt)" },
       { text: "2 pak jellie (enige geur)" },
@@ -173,7 +175,7 @@ export const ALL_RECIPES_DATA: RecipeData[] = [
   {
     id: "KaapseBrandewynpoeding",
     title: "Kaapse Brandewynpoeding",
-     category:"Sweet",
+    category: "Sweet",
     ingredients: [
       { text: "250g Dadels, ontpit en fyngekap" },
       { text: "5ml koeksoda" },
@@ -199,7 +201,7 @@ export const ALL_RECIPES_DATA: RecipeData[] = [
   {
     id: "KlapperVulsel",
     title: "Klapper (Pannekoek-vulsel)",
-     category:"Sweet",
+    category: "Sweet",
     ingredients: [
       { text: "½ pak klapper (gesnipperde klapper)" },
       { text: "½ koppie suiker" },
@@ -217,7 +219,7 @@ export const ALL_RECIPES_DATA: RecipeData[] = [
   {
     id: "KorsloseSouttert",
     title: "Korslose Souttert",
-     category:"Savoury",
+    category: "Savoury",
     ingredients: [
       { text: "500ml gerasperde Weense worsies" },
       { text: "3 eiers" },
@@ -239,7 +241,7 @@ export const ALL_RECIPES_DATA: RecipeData[] = [
   {
     id: "MaaskaasTert",
     title: "Maaskaas Tert",
-     category:"Sweet",
+    category: "Sweet",
     ingredients: [
       { text: "1 blik kondensmelk" },
       { text: "1 pak Orley Whip" },
@@ -259,7 +261,7 @@ export const ALL_RECIPES_DATA: RecipeData[] = [
   {
     id: "MalvaLekkerTert",
     title: "Malva Lekker Tert",
-     category:"Sweet",
+    category: "Sweet",
     ingredients: [
       { text: "1 blik kondensmelk" },
       { text: "125ml suurlemoensap" },
@@ -279,7 +281,7 @@ export const ALL_RECIPES_DATA: RecipeData[] = [
   {
     id: "Malvapoeding",
     title: "Malvapoeding",
-     category:"Sweet",
+    category: "Sweet",
     ingredients: [
       { text: "1 koppie koekmeel" },
       { text: "1 tlp. bakpoeier" },
@@ -303,7 +305,7 @@ export const ALL_RECIPES_DATA: RecipeData[] = [
   {
     id: "MikrogolfSjokoladekoek",
     title: "Mikrogolf Sjokoladekoek",
-     category:"Sweet",
+    category: "Sweet",
     ingredients: [
       { text: "250ml koekmeel" },
       { text: "250ml suiker" },
@@ -314,14 +316,15 @@ export const ALL_RECIPES_DATA: RecipeData[] = [
       { text: "250ml kookwater" },
     ],
     method: [
-      "Meng alle bestanddele saam en klits tot glad.",
+      "Klits kookpolie en kookwater saam",
+      "Meng ander bestanddele saam en klits tot glad.",
       "Mikrogolf vir 7 minute op HOOG.",
     ],
   },
   {
     id: "Noedelslaai",
     title: "Noedelslaai",
-     category:"Savoury",
+    category: "Savoury",
     ingredients: [
       { text: "500g noedels (gaar en gedreineer)" },
       { text: "Uie (gekap)" },
@@ -338,7 +341,7 @@ export const ALL_RECIPES_DATA: RecipeData[] = [
   {
     id: "Pampoenkoekies",
     title: "Pampoenkoekies",
-     category:"Sweet",
+    category: "Sweet",
     ingredients: [
       { text: "2 koppies gaar, fyngemaakte pampoen" },
       { text: "4 etl. koekmeel / self-raising meel" },
@@ -358,7 +361,7 @@ export const ALL_RECIPES_DATA: RecipeData[] = [
   {
     id: "Pannekoek",
     title: "Pannekoek",
-     category:"Sweet",
+    category: "Sweet",
     ingredients: [
       { text: "1 koppie meel" },
       { text: "¾ tlp. bakpoeier" },
@@ -376,7 +379,7 @@ export const ALL_RECIPES_DATA: RecipeData[] = [
   {
     id: "Pynappeltert",
     title: "Pynappeltert (Pineapple Treat)",
-     category:"Sweet",
+    category: "Sweet",
     ingredients: [
       { text: "1 blik Ideal Milk (baie koud)" },
       { text: "1 blik Koo-pynappels (fyn of stukke)" },
@@ -397,7 +400,7 @@ export const ALL_RECIPES_DATA: RecipeData[] = [
   {
     id: "SagoPoeding",
     title: "Sago-poeding",
-     category:"Sweet",
+    category: "Sweet",
     ingredients: [
       { text: "1 sakkie melk (gewoonlik 1 liter)" },
       { text: "1 koppie sago" },
@@ -417,7 +420,7 @@ export const ALL_RECIPES_DATA: RecipeData[] = [
   {
     id: "SnoekEnAppelkoosjam",
     title: "Snoek & Appelkoosjam (Deon Maas)",
-     category:"Savoury",
+    category: "Savoury",
     ingredients: [
       { text: "1 vars snoek (oopgesny)" },
       { text: "2 koppies growwe sout (vir vryf/pekel)" },
@@ -435,7 +438,7 @@ export const ALL_RECIPES_DATA: RecipeData[] = [
   {
     id: "SunriseSurprise",
     title: "Sunrise Surprise",
-     category:"Savoury",
+    category: "Savoury",
     ingredients: [
       { text: "1 Franse brood (Franse stokbrood)" },
       { text: "Botter" },
@@ -463,7 +466,7 @@ export const ALL_RECIPES_DATA: RecipeData[] = [
   {
     id: "TuisgemaakteDadels",
     title: "Tuisgemaakte Dadels",
-     category:"Sweet",
+    category: "Sweet",
     ingredients: [
       { text: "125g botter" },
       { text: "125g suiker" },
@@ -482,7 +485,7 @@ export const ALL_RECIPES_DATA: RecipeData[] = [
   {
     id: "TunaTert",
     title: "Tuna Tert",
-     category:"Savoury",
+    category: "Savoury",
     ingredients: [
       { text: "2 snye witbrood (opgebreek)" },
       { text: "½ koppie melk" },
@@ -503,7 +506,7 @@ export const ALL_RECIPES_DATA: RecipeData[] = [
   {
     id: "TunaVorm",
     title: "Tuna Vorm",
-     category:"Savoury",
+    category: "Savoury",
     ingredients: [
       { text: "1 blik tuna (gedreineer)" },
       { text: "1 houer maaskaas" },
@@ -523,7 +526,7 @@ export const ALL_RECIPES_DATA: RecipeData[] = [
   {
     id: "VinnigeSouttert1",
     title: "Vinnige Souttert (1)",
-     category:"Savoury",
+    category: "Savoury",
     ingredients: [
       { text: "1 sny witbrood (opgebreek)" },
       { text: "250ml melk" },
@@ -545,7 +548,7 @@ export const ALL_RECIPES_DATA: RecipeData[] = [
   {
     id: "VinnigeSouttert2",
     title: "Vinnige Souttert (2)",
-     category:"Savoury",
+    category: "Savoury",
     ingredients: [
       { text: "250g streepspek, gekap" },
       { text: "1 ui, gekap" },
@@ -567,5 +570,22 @@ export const ALL_RECIPES_DATA: RecipeData[] = [
       "Gooi die eiermengsel oor die kaas en vulsel in die oondbak.",
       "Bak vir 30 minute teen 180°C.",
     ],
+  },
+  {
+    id: "MikrogolfWortelkoek",
+    title: "Mikrogold Wortelkoek",
+    category: "Sweet",
+    ingredients: [
+      { text: "1/2 koppie kookolie" },
+      { text: "3/4 koppe bruinsuiker" },
+      { text: "1/2 tlp. koeksoda" },
+      { text: "1 tlp. Valilla essens" },
+      { text: "1 tlp Gemengde Speserye" },
+      { text: "1 tlp. Fyn Kaneel" },
+      { text: "1 koppie Selfraising meel" },
+      { text: "2 koppies Gerasperde Wortels" },
+      { text: "100ml Gekapte neute" },
+    ],
+    method: ["Klits alles saam", "Bak 7 min op hoog"],
   },
 ];
