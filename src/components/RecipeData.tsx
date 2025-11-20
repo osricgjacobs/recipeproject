@@ -21,7 +21,7 @@ export const ALL_RECIPES_DATA: RecipeData[] = [
       { text: "125ml botter" },
       { text: "250ml vermicelli" },
       { text: "2 L melk" },
-      { text: "8-10 kardemompe (fyn gekap)" },
+      { text: "8-10 karamonk (fyn gekap)" },
       { text: "8-10 kaneelstukke" },
       { text: "250ml sago" },
       { text: "250ml suiker / kondensmelk (na smaak)" },
@@ -29,7 +29,7 @@ export const ALL_RECIPES_DATA: RecipeData[] = [
     method: [
       "Smelt die botter in 'n groot pot.",
       "Skroei die vermicelli in die botter tot dit ligbruin is.",
-      "Gooi die melk, fyn gekapte kardemom en kaneelstukke by.",
+      "Gooi die melk, fyn gekapte karamonk en kaneelstukke by.",
       "Bring die mengsel tot kookpunt.",
       "Voeg die sago en suiker (of kondensmelk) by.",
       "Kook verder en roer gereeld tot die sago sag is.",
@@ -200,7 +200,7 @@ export const ALL_RECIPES_DATA: RecipeData[] = [
   },
   {
     id: "KlapperVulsel",
-    title: "Klapper (Pannekoek-vulsel)",
+    title: "Pannekoek-vulsel (Klapper)",
     category: "Sweet",
     ingredients: [
       { text: "½ pak klapper (gesnipperde klapper)" },
